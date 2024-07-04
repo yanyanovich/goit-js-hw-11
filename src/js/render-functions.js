@@ -1,4 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
+import iziToast from 'izitoast';
 export function createMarkup(images) {
   const galleryElement = document.querySelector('.gallery');
   galleryElement.innerHTML = '';
